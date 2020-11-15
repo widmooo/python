@@ -147,4 +147,15 @@ elif num > 17:
         b = a + 17
         if b > num:
          break
-        print(num - b)    
+        print(num - b)
+        
+ print("11. Add arrays and sort them andremember to delete duplicates)     
+ def merge_arrays(arr1, arr2):
+    new = arr1 + arr2
+    new.sort()
+    output = []
+    for x in new:
+        if x not in output:
+            output.append(x)
+    output.sort()
+    return output
