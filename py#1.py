@@ -149,7 +149,7 @@ elif num > 17:
          break
         print(num - b)
         
- print("11. Add arrays and sort them andremember to delete duplicates)     
+ print("11. Merge two sorted arrays into one - remember to delete duplicates)     
  def merge_arrays(arr1, arr2):
     new = arr1 + arr2
     new.sort()
